@@ -10,8 +10,10 @@ const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
 
 // node modules
+const git = require('git-rev-sync')
 const glob = require('glob-all')
 const merge = require('webpack-merge').merge
+const moment = require('moment')
 const path = require('path')
 const webpack = require('webpack')
 
@@ -28,6 +30,25 @@ const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 const common = require('./webpack.common.js')
 const pkg = require('./package.json')
 const settings = require('./webpack.settings.js')
+
+// Configure file banner
+const configureBanner = () => {
+  return {
+    banner: [
+      '/*!',
+      ' * @project        ' + settings.name,
+      ' * @name           ' + '[filebase]',
+      ' * @author         ' + pkg.author.name,
+      ' * @build          ' + moment().format('llll') + ' ET',
+      ' * @release        ' + git.long() + ' [' + git.branch() + ']',
+      ' * @copyright      Copyright (c) ' + moment().format('YYYY') + ' ' + settings.copyright,
+      ' *',
+      ' */',
+      '',
+    ].join('\n'),
+    raw: true,
+  }
+}
 
 // Configure Bundle Analyzer
 const configureBundleAnalyzer = (buildType) => {
@@ -206,6 +227,9 @@ module.exports = [
   //                 path: path.resolve(__dirname, settings.paths.build.base),
   //                 filename: '[name].[hash:4].css',
   //             }),
+  //             new webpack.BannerPlugin(
+  //                 configureBanner()
+  //             ),
   //             new BundleAnalyzerPlugin(
   //                 configureBundleAnalyzer(LEGACY_CONFIG),
   //             ),
@@ -259,11 +283,12 @@ module.exports = [
         path: path.resolve(__dirname, settings.paths.build.base),
         filename: '[name].[hash:4].css',
       }),
+      new webpack.BannerPlugin(configureBanner()),
       new ImageminWebpWebpackPlugin(),
       new BundleAnalyzerPlugin(configureBundleAnalyzer(MODERN_CONFIG)),
-      // new DotEnvPlugin({
-      //   path: path.resolve(__dirname, './.env.release'),
-      // }),
+      new DotEnvPlugin({
+        path: path.resolve(__dirname, './.env.release'),
+      }),
       new HtmlWebpackExternalsPlugin({
         externals: [
           {

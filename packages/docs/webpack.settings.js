@@ -5,7 +5,7 @@ require('dotenv').config()
 
 // Webpack settings exports
 module.exports = {
-  name: 'Marketplace Documentation',
+  name: 'Marketplace Docs',
   copyright: 'Papillon Ads',
   paths: {
     src: {

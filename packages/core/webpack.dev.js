@@ -151,9 +151,9 @@ module.exports = [
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
-      // new DotEnvPlugin({
-      //   path: path.resolve(__dirname, './.env.develop'),
-      // }),
+      new DotEnvPlugin({
+        path: path.resolve(__dirname, './.env.develop'),
+      }),
     ],
   }),
 ]
