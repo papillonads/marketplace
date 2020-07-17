@@ -26,7 +26,9 @@
     "test": "jest -u --silent --runInBand --coverage",
     "report-coverage": "codecov",
     "start-storybook": "NODE_ENV=develop start-storybook -p 7007 -c .storybook",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "deploy-core": "gh-pages -d packages/core/build",
+    "deploy": "npm-run-all build deploy-core"
   },
   "dependencies": {
     "@babel/core": "^7.10.5",
