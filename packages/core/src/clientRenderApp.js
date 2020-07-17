@@ -17,7 +17,7 @@ export function App() {
       <Provider store={clientAppStore}>
         <BrowserRouter>
           <Switch>
-            <Route exact={appRootRoute.exact} path={appRootRoute.path} />
+            <Route exact={appRootRoute.exact} path={appRootRoute.path} component={appRootRoute.clientComponent} />
             <Route component={withRouter(notFoundPageRoute.clientComponent)} />
           </Switch>
         </BrowserRouter>

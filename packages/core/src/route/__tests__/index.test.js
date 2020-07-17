@@ -1,4 +1,10 @@
 /* eslint-disable import/no-dynamic-require, global-require */
+const mockRequireHomePage = () => {
+  const homePagePath = '../../pattern/page/HomePage'
+  jest.mock(homePagePath, () => 'HomePage')
+  return require(homePagePath)
+}
+
 const mockRequireNotFoundPage = () => {
   const notFoundPagePath = '../../pattern/page/NotFoundPage'
   jest.mock(notFoundPagePath, () => 'NotFoundPage')
@@ -24,9 +30,13 @@ describe('index', () => {
   }
 
   describe('appRootRoute', () => {
+    const homePage = mockRequireHomePage()
+
     const expectedAppRootRoute = {
       path: path.appRootPath,
       exact: true,
+      clientComponent: homePage.AsyncHomePage,
+      serverComponent: homePage.HomePage,
     }
 
     test('must return app root route object', () => {
