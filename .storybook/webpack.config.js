@@ -43,11 +43,11 @@ module.exports = ({ config, mode }) => {
     use: ['@svgr/webpack'],
   })
 
-  // plugins.push(
-  //   new DotEnvPlugin({
-  //     path: path.resolve(__dirname, '../packages/core/.env.develop'),
-  //   }),
-  // )
+  plugins.push(
+    new DotEnvPlugin({
+      path: path.resolve(__dirname, '../packages/core/.env.develop'),
+    }),
+  )
 
   return config
 }
