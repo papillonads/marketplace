@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1083px" height="130px" src=".docs/image/logo.jpg">
+  <img width="300px" height="250px" src=".docs/image/logo.jpg">
 </p>
 
 <h1 align="center">Marketplace Microsites</h1>
