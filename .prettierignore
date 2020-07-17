@@ -1,0 +1,30 @@
+# MacOS
+.DS_Store
+
+# Sublime Text
+app.sublime-project
+app.sublime-workspace
+
+# Storybook
+.storybook-static
+
+# Test
+coverage
+
+# Marketplace Microsites
+.build
+npm-debug.log
+lerna-debug.log
+package-lock.json
+node_modules
+
+# Microsite Core
+packages/core/package-lock.json
+packages/core/build
+packages/core/node_modules
+
+# Microsite Docs
+packages/docs/src/asset/*
+packages/docs/package-lock.json
+packages/docs/build
+packages/docs/node_modules
