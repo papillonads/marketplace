@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   urls: {
-    publicPath: '/',
+    publicPath: '/marketplace/',
   },
   vars: {
     cssName: 'styles',
