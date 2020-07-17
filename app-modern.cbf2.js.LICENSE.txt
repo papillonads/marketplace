@@ -1,0 +1,36 @@
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ * @project        Marketplace Core
+ * @name           app-modern.cbf2.js
+ * @author         Papillon Ads
+ * @build          Fri, Jul 17, 2020 5:42 PM ET
+ * @release        12841655a7658573d01e8d1ec90a4717a29c14a3 [master]
+ * @copyright      Copyright (c) 2020 Papillon Ads
+ *
+ */
+
+/*! axe v3.5.5
+ * Copyright (c) 2020 Deque Systems, Inc.
+ *
+ * Your use of this Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This entire copyright notice must appear in every copy of this file you
+ * distribute or in any file that contains substantial portions of this source
+ * code.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
