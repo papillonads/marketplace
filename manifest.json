@@ -1,8 +1,8 @@
 {
-  "app.css": "/app.cbf2.css",
-  "app.js": "/app-modern.cbf2.js",
-  "app.css.map": "/app.cbf2.css.map",
-  "app.js.map": "/app-modern.cbf2.js.map",
-  "app-modern.cbf2.js.LICENSE.txt": "/app-modern.cbf2.js.LICENSE.txt",
-  "index.html": "/index.html"
+  "app.css": "/marketplace/app.4f70.css",
+  "app.js": "/marketplace/app-modern.4f70.js",
+  "app.css.map": "/marketplace/app.4f70.css.map",
+  "app.js.map": "/marketplace/app-modern.4f70.js.map",
+  "app-modern.4f70.js.LICENSE.txt": "/marketplace/app-modern.4f70.js.LICENSE.txt",
+  "index.html": "/marketplace/index.html"
 }
