@@ -17,6 +17,12 @@
       <img src="https://avatars0.githubusercontent.com/u/8226205" alt="codecov logo" width="20vw" height="20vh">
     </a>
   </a>
+  <a href="https://github.com/papillonads/marketplace/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/marketplace?color=0088ff" />
+  </a>
+  <a href="https://github.com/papillonads/marketplace/pulls">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/marketplace?color=0088ff" />
+  </a>
 </p>
 
 <h2 style="color: #006400;">🗿 Status</h2>
