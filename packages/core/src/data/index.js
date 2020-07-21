@@ -1,5 +1,5 @@
-import { category } from './category'
+import { groups } from './group'
 
 export const data = {
-  category,
+  groups,
 }
