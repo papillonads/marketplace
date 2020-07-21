@@ -1,5 +1,5 @@
-import { categories } from './category'
+import { brands } from './brand'
 
 export const cars = {
-  categories,
+  brands,
 }

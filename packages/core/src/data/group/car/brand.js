@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
-export const categories = [
+export const brands = [
   { id: uuidv4(), name: 'Abarth', isPopular: false, isFooterBrand: false },
   { id: uuidv4(), name: 'Aixam', isPopular: false, isFooterBrand: false },
   { id: uuidv4(), name: 'Alfa Romeo', isPopular: false, isFooterBrand: false },
