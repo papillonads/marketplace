@@ -1227,7 +1227,17 @@ export const brands = [
       { id: uuidv4(), name: 'Other models' },
     ],
   },
-  { id: uuidv4(), name: 'Polestar', isPopular: false, isFooterBrand: false, models: [] },
+  {
+    id: uuidv4(),
+    name: 'Polestar',
+    isPopular: false,
+    isFooterBrand: false,
+    models: [
+      { id: uuidv4(), name: '1' },
+      { id: uuidv4(), name: '2' },
+      { id: uuidv4(), name: 'Other models' },
+    ],
+  },
   { id: uuidv4(), name: 'Pontiac', isPopular: false, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Porsche', isPopular: false, isFooterBrand: false, models: [] },
   {
