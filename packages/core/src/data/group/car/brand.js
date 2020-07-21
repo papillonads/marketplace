@@ -1,7 +1,17 @@
 import { v4 as uuidv4 } from 'uuid'
 
 export const brands = [
-  { id: uuidv4(), name: 'Abarth', isPopular: false, isFooterBrand: false, models: [] },
+  {
+    id: uuidv4(),
+    name: 'Abarth',
+    isPopular: false,
+    isFooterBrand: false,
+    models: [
+      { id: uuidv4(), name: '500' },
+      { id: uuidv4(), name: '500C' },
+      { id: uuidv4(), name: 'Other Models' },
+    ],
+  },
   { id: uuidv4(), name: 'Aixam', isPopular: false, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Alfa Romeo', isPopular: false, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Alpina', isPopular: false, isFooterBrand: false, models: [] },
