@@ -65,7 +65,16 @@ export const brands = [
       { id: uuidv4(), name: 'Other models' },
     ],
   },
-  { id: uuidv4(), name: 'Alpine', isPopular: false, isFooterBrand: false, models: [] },
+  {
+    id: uuidv4(),
+    name: 'Alpine',
+    isPopular: false,
+    isFooterBrand: false,
+    models: [
+      { id: uuidv4(), name: 'A110' },
+      { id: uuidv4(), name: 'Other models' },
+    ],
+  },
   { id: uuidv4(), name: 'Aston Martin', isPopular: false, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Audi', isPopular: true, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Austin', isPopular: false, isFooterBrand: false, models: [] },
