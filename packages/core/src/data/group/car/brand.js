@@ -1514,7 +1514,17 @@ export const brands = [
       { id: uuidv4(), name: 'Other models' },
     ],
   },
-  { id: uuidv4(), name: 'Tesla', isPopular: false, isFooterBrand: false, models: [] },
+  {
+    id: uuidv4(),
+    name: 'Tesla',
+    isPopular: false,
+    isFooterBrand: false,
+    models: [
+      { id: uuidv4(), name: 'Model S' },
+      { id: uuidv4(), name: 'Model 3' },
+      { id: uuidv4(), name: 'Model X' },
+    ],
+  },
   { id: uuidv4(), name: 'Toyota', isPopular: true, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Triumph', isPopular: false, isFooterBrand: false, models: [] },
   { id: uuidv4(), name: 'Volkswagen', isPopular: true, isFooterBrand: true, models: [] },
