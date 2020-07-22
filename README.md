@@ -5,6 +5,26 @@
 <h1 align="center">Marketplace Microsites</h1>
 
 <p align="center">
+  <a aria-label="downloads" href="https://npm-stat.com/charts.html?package=@papillonads/marketplace-core&from=2018-10-13">
+    <img alt="" src="https://img.shields.io/npm/dm/@papillonads/marketplace-core.svg">
+  </a>
+  <a aria-label="last commit" href="https://github.com/papillonads/marketplace/commits/master">
+    <img alt="" src="https://img.shields.io/github/last-commit/papillonads/marketplace.svg">
+  </a>
+  <a aria-label="contributors graph" href="https://github.com/papillonads/marketplace/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/papillonads/marketplace.svg">
+  </a>
+  <a aria-label="license" href="https://github.com/papillonads/marketplace/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/papillonads/marketplace.svg" alt="">
+  </a>
+  <a href="https://github.com/papillonads/marketplace/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/marketplace?color=0088ff" />
+  </a>
+  <a href="https://github.com/papillonads/marketplace/pulls">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/marketplace?color=0088ff" />
+  </a>
+</p>
+<p align="center">
   <a href="https://travis-ci.org/github/papillonads/marketplace">
     <img alt="" src="https://img.shields.io/travis/papillonads/marketplace.svg?logo=travis" alt="travis-ci badge">
     <a href="https://github.com/travis-ci">
@@ -16,12 +36,6 @@
     <a href="https://github.com/codecov/">
       <img src="https://avatars0.githubusercontent.com/u/8226205" alt="codecov logo" width="20vw" height="20vh">
     </a>
-  </a>
-  <a href="https://github.com/papillonads/marketplace/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/marketplace?color=0088ff" />
-  </a>
-  <a href="https://github.com/papillonads/marketplace/pulls">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/marketplace?color=0088ff" />
   </a>
 </p>
 
