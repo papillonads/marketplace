@@ -20,6 +20,7 @@ module.exports = {
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
     '!packages/**/src/mock/*',
+    '!packages/core/src/data/**',
     '!packages/core/src/library/**',
     '!packages/core/src/pattern/atom/ErrorBoundary/**',
     '!packages/core/src/pattern/atom/primer/**',
