@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
-export const maximumPrices = [
+export const maxPrices = [
   { id: uuidv4(), name: 'tot € 500' },
   { id: uuidv4(), name: 'tot € 1.000' },
   { id: uuidv4(), name: 'tot € 1.500' },
