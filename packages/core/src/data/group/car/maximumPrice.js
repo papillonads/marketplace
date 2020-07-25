@@ -1,0 +1,27 @@
+import { v4 as uuidv4 } from 'uuid'
+
+export const maximumPrices = [
+  { id: uuidv4(), name: 'tot € 500' },
+  { id: uuidv4(), name: 'tot € 1.000' },
+  { id: uuidv4(), name: 'tot € 1.500' },
+  { id: uuidv4(), name: 'tot € 2.000' },
+  { id: uuidv4(), name: 'tot € 2.500' },
+  { id: uuidv4(), name: 'tot € 3.000' },
+  { id: uuidv4(), name: 'tot € 4.000' },
+  { id: uuidv4(), name: 'tot € 5.000' },
+  { id: uuidv4(), name: 'tot € 6.000' },
+  { id: uuidv4(), name: 'tot € 7.000' },
+  { id: uuidv4(), name: 'tot € 8.000' },
+  { id: uuidv4(), name: 'tot € 9.000' },
+  { id: uuidv4(), name: 'tot € 10.000' },
+  { id: uuidv4(), name: 'tot € 12.500' },
+  { id: uuidv4(), name: 'tot € 15.000' },
+  { id: uuidv4(), name: 'tot € 17.500' },
+  { id: uuidv4(), name: 'tot € 20.000' },
+  { id: uuidv4(), name: 'tot € 25.000' },
+  { id: uuidv4(), name: 'tot € 30.000' },
+  { id: uuidv4(), name: 'tot € 40.000' },
+  { id: uuidv4(), name: 'tot € 50.000' },
+  { id: uuidv4(), name: 'tot € 75.000' },
+  { id: uuidv4(), name: 'tot € 100.000' },
+]
