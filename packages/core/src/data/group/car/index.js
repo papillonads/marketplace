@@ -7,6 +7,7 @@ import { offeredSince } from './offeredSince'
 import { priceTypes } from './priceType'
 import { advertisers } from './advertiser'
 import { warranties } from './warranty'
+import { distances } from './distance'
 
 export const cars = {
   brands,
@@ -18,4 +19,5 @@ export const cars = {
   priceTypes,
   advertisers,
   warranties,
+  distances,
 }
