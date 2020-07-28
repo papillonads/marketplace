@@ -3,6 +3,7 @@ import { foodCooking } from './foodCooking'
 import { historyPoliticsHistory } from './historyPoliticsHistory'
 import { childYouth } from './childYouth'
 import { artCulture } from './artCulture'
+import { popularFiction } from './popularFiction'
 
 export const books = {
   servicesProfessionals,
@@ -10,4 +11,5 @@ export const books = {
   historyPoliticsHistory,
   childYouth,
   artCulture,
+  popularFiction,
 }
