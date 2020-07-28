@@ -6,6 +6,7 @@ import { artCulture } from './artCulture'
 import { popularFiction } from './popularFiction'
 import { schoolStudyScience } from './schoolStudyScience'
 import { sportHobbyLeisure } from './sportHobbyLeisure'
+import { comics } from './comics'
 
 export const books = {
   servicesProfessionals,
@@ -16,4 +17,5 @@ export const books = {
   popularFiction,
   schoolStudyScience,
   sportHobbyLeisure,
+  comics,
 }
