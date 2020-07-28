@@ -9,6 +9,7 @@ import { accessories } from './accessories'
 import { cattle } from './cattle'
 import { missingAnimals } from './missingAnimals'
 import { fishes } from './fishes'
+import { birds } from './birds'
 
 export const animalsAccessories = {
   books,
@@ -22,4 +23,5 @@ export const animalsAccessories = {
   cattle,
   missingAnimals,
   fishes,
+  birds,
 }
