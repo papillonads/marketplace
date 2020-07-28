@@ -9,6 +9,7 @@ import { advertisers } from './advertiser'
 import { warranties } from './warranty'
 import { distances } from './distance'
 import { consumptions } from './consumption'
+import { numberOfDoors } from './numberOfDoors'
 
 export const cars = {
   brands,
@@ -22,4 +23,5 @@ export const cars = {
   warranties,
   distances,
   consumptions,
+  numberOfDoors,
 }
