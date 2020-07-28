@@ -5,6 +5,7 @@ import { childYouth } from './childYouth'
 import { artCulture } from './artCulture'
 import { popularFiction } from './popularFiction'
 import { schoolStudyScience } from './schoolStudyScience'
+import { sportHobbyLeisure } from './sportHobbyLeisure'
 
 export const books = {
   servicesProfessionals,
@@ -14,4 +15,5 @@ export const books = {
   artCulture,
   popularFiction,
   schoolStudyScience,
+  sportHobbyLeisure,
 }
