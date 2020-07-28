@@ -8,6 +8,7 @@ import { priceTypes } from './priceType'
 import { advertisers } from './advertiser'
 import { warranties } from './warranty'
 import { distances } from './distance'
+import { consumptions } from './consumption'
 
 export const cars = {
   brands,
@@ -20,4 +21,5 @@ export const cars = {
   advertisers,
   warranties,
   distances,
+  consumptions,
 }
