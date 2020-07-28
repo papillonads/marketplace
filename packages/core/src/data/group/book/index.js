@@ -8,6 +8,7 @@ import { schoolStudyScience } from './schoolStudyScience'
 import { sportHobbyLeisure } from './sportHobbyLeisure'
 import { comics } from './comics'
 import { languageTravel } from './languageTravel'
+import { others } from './others'
 
 export const books = {
   servicesProfessionals,
@@ -20,4 +21,5 @@ export const books = {
   sportHobbyLeisure,
   comics,
   languageTravel,
+  others,
 }
