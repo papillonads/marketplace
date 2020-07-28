@@ -11,6 +11,7 @@ import { distances } from './distance'
 import { consumptions } from './consumption'
 import { numberOfDoors } from './numberOfDoors'
 import { numberOfSeats } from './numberOfSeats'
+import { transmissions } from './transmission'
 
 export const cars = {
   brands,
@@ -26,4 +27,5 @@ export const cars = {
   consumptions,
   numberOfDoors,
   numberOfSeats,
+  transmissions,
 }
