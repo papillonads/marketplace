@@ -12,6 +12,7 @@ import { consumptions } from './consumption'
 import { numberOfDoors } from './numberOfDoors'
 import { numberOfSeats } from './numberOfSeats'
 import { transmissions } from './transmission'
+import { mot } from './mot'
 
 export const cars = {
   brands,
@@ -28,4 +29,5 @@ export const cars = {
   numberOfDoors,
   numberOfSeats,
   transmissions,
+  mot,
 }
