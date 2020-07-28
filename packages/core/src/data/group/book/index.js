@@ -1,7 +1,9 @@
-import { servicesAndProfessionals } from './servicesAndProfessionals'
-import { foodAndCooking } from './foodAndCooking'
+import { servicesProfessionals } from './servicesProfessionals'
+import { foodCooking } from './foodCooking'
+import { historyPoliticsHistory } from './historyPoliticsHistory'
 
 export const books = {
-  servicesAndProfessionals,
-  foodAndCooking,
+  servicesProfessionals,
+  foodCooking,
+  historyPoliticsHistory,
 }
