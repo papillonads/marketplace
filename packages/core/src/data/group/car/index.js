@@ -10,6 +10,7 @@ import { warranties } from './warranty'
 import { distances } from './distance'
 import { consumptions } from './consumption'
 import { numberOfDoors } from './numberOfDoors'
+import { numberOfSeats } from './numberOfSeats'
 
 export const cars = {
   brands,
@@ -24,4 +25,5 @@ export const cars = {
   distances,
   consumptions,
   numberOfDoors,
+  numberOfSeats,
 }
