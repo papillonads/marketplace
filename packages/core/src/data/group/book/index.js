@@ -7,6 +7,7 @@ import { popularFiction } from './popularFiction'
 import { schoolStudyScience } from './schoolStudyScience'
 import { sportHobbyLeisure } from './sportHobbyLeisure'
 import { comics } from './comics'
+import { languageTravel } from './languageTravel'
 
 export const books = {
   servicesProfessionals,
@@ -18,4 +19,5 @@ export const books = {
   schoolStudyScience,
   sportHobbyLeisure,
   comics,
+  languageTravel,
 }
