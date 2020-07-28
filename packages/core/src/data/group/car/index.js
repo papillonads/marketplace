@@ -13,6 +13,7 @@ import { numberOfDoors } from './numberOfDoors'
 import { numberOfSeats } from './numberOfSeats'
 import { transmissions } from './transmission'
 import { mot } from './mot'
+import { colors } from './color'
 
 export const cars = {
   brands,
@@ -30,4 +31,5 @@ export const cars = {
   numberOfSeats,
   transmissions,
   mot,
+  colors,
 }
