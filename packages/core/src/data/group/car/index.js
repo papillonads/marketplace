@@ -3,6 +3,7 @@ import { maxPrices } from './maxPrice'
 import { bodyworks } from './bodywork'
 import { fuels } from './fuel'
 import { minConstructionYears } from './minConstructionYear'
+import { offeredSince } from './offeredSince'
 
 export const cars = {
   brands,
@@ -10,4 +11,5 @@ export const cars = {
   bodyworks,
   fuels,
   minConstructionYears,
+  offeredSince,
 }
