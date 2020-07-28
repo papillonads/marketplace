@@ -5,6 +5,7 @@ import { fuels } from './fuel'
 import { minConstructionYears } from './minConstructionYear'
 import { offeredSince } from './offeredSince'
 import { priceTypes } from './priceType'
+import { advertisers } from './advertiser'
 
 export const cars = {
   brands,
@@ -14,4 +15,5 @@ export const cars = {
   minConstructionYears,
   offeredSince,
   priceTypes,
+  advertisers,
 }
