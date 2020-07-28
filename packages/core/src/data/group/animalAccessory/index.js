@@ -7,6 +7,7 @@ import { horsesPonies } from './horsesPonies'
 import { reptilesAmphibians } from './reptilesAmphibians'
 import { accessories } from './accessories'
 import { cattle } from './cattle'
+import { missingAnimals } from './missingAnimals'
 
 export const animalsAccessories = {
   books,
@@ -18,4 +19,5 @@ export const animalsAccessories = {
   reptilesAmphibians,
   accessories,
   cattle,
+  missingAnimals,
 }
