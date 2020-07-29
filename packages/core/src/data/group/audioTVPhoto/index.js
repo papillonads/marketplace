@@ -1,7 +1,9 @@
 import { accessories } from './accessories'
 import { audio } from './audio'
+import { audioPortable } from './audioPortable'
 
 export const audioTVPhoto = {
   accessories,
   audio,
+  audioPortable,
 }
