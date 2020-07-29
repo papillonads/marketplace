@@ -4,6 +4,7 @@ import { audioPortable } from './audioPortable'
 import { servicesProfessionals } from './servicesProfessionals'
 import { filmVideoTV } from './filmVideoTV'
 import { photography } from './photography'
+import { opticalEquipment } from './opticalEquipment'
 
 export const audioTVPhoto = {
   accessories,
@@ -12,4 +13,5 @@ export const audioTVPhoto = {
   servicesProfessionals,
   filmVideoTV,
   photography,
+  opticalEquipment,
 }
