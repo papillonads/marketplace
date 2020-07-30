@@ -5,6 +5,7 @@ import { booksManuals } from './booksManuals'
 import { servicesProfessionals } from './servicesProfessionals'
 import { purchase } from './purchase'
 import { components } from './components'
+import { others } from './others'
 
 export const carMiscellaneous = {
   trailers,
@@ -14,4 +15,5 @@ export const carMiscellaneous = {
   servicesProfessionals,
   purchase,
   components,
+  others,
 }
