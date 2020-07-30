@@ -4,6 +4,7 @@ import { cars } from './cars'
 import { booksManuals } from './booksManuals'
 import { servicesProfessionals } from './servicesProfessionals'
 import { purchase } from './purchase'
+import { components } from './components'
 
 export const carMiscellaneous = {
   trailers,
@@ -12,4 +13,5 @@ export const carMiscellaneous = {
   booksManuals,
   servicesProfessionals,
   purchase,
+  components,
 }
