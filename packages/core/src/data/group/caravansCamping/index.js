@@ -3,6 +3,7 @@ import { caravansCampers } from './caravansCampers'
 import { services } from './services'
 import { purchase } from './purchase'
 import { tentsTrailerTents } from './tentsTrailerTents'
+import { others } from './others'
 
 export const caravansCamping = {
   accessoriesAccessories,
@@ -10,4 +11,5 @@ export const caravansCamping = {
   services,
   purchase,
   tentsTrailerTents,
+  others,
 }
