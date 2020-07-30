@@ -5,5 +5,6 @@ import { antiqueArt } from './antiqueArt'
 import { audioTVPhoto } from './audioTVPhoto'
 import { carParts } from './carParts'
 import { carMiscellaneous } from './carMiscellaneous'
+import { caravansCamping } from './caravansCamping'
 
-export const groups = [cars, books, animalsAccessories, antiqueArt, audioTVPhoto, carParts, carMiscellaneous]
+export const groups = [cars, books, animalsAccessories, antiqueArt, audioTVPhoto, carParts, carMiscellaneous, caravansCamping]
