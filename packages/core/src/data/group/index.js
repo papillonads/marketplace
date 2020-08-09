@@ -9,6 +9,7 @@ import { caravansCamping } from './caravansCamping'
 import { CDsDVDs } from './CDsDVDs'
 import { computersSoftware } from './computersSoftware'
 import { contactsMessages } from './contactsMessages'
+import { servicesProfessionals } from './servicesProfessionals'
 
 export const groups = [
   cars,
@@ -22,4 +23,5 @@ export const groups = [
   CDsDVDs,
   computersSoftware,
   contactsMessages,
+  servicesProfessionals,
 ]
