@@ -7,6 +7,7 @@ import { storage } from './storage'
 import { peripherals } from './peripherals'
 import { software } from './software'
 import { tabletsReaders } from './tabletsReaders'
+import { others } from './others'
 
 export const computersSoftware = {
   books,
@@ -18,4 +19,5 @@ export const computersSoftware = {
   peripherals,
   software,
   tabletsReaders,
+  others,
 }
