@@ -7,5 +7,17 @@ import { carParts } from './carParts'
 import { carMiscellaneous } from './carMiscellaneous'
 import { caravansCamping } from './caravansCamping'
 import { CDsDVDs } from './CDsDVDs'
+import { computersSoftware } from './computersSoftware'
 
-export const groups = [cars, books, animalsAccessories, antiqueArt, audioTVPhoto, carParts, carMiscellaneous, caravansCamping, CDsDVDs]
+export const groups = [
+  cars,
+  books,
+  animalsAccessories,
+  antiqueArt,
+  audioTVPhoto,
+  carParts,
+  carMiscellaneous,
+  caravansCamping,
+  CDsDVDs,
+  computersSoftware,
+]
