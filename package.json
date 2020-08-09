@@ -31,7 +31,7 @@
     "deploy": "npm-run-all build deploy-core"
   },
   "dependencies": {
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@babel/plugin-proposal-optional-catch-binding": "^7.10.4",
@@ -43,7 +43,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
-    "@babel/runtime": "^7.11.0",
+    "@babel/runtime": "^7.11.2",
     "@papillonads/components": "^1.8.0",
     "@papillonads/library": "^1.5.0",
     "@svgr/webpack": "^5.4.0",
@@ -107,7 +107,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-manifest-plugin": "^2.2.0",
     "webpack-merge": "^5.1.1",
-    "whatwg-fetch": "^3.3.1"
+    "whatwg-fetch": "^3.4.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.19",
@@ -122,7 +122,7 @@
     "babel-jest": "^26.2.2",
     "codecov": "^3.7.2",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-adapter-react-16": "^1.15.3",
     "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
